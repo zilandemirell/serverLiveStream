@@ -1,4 +1,4 @@
-const RtmpServer = require('./rtmp-server/node_modules/rtmp-server/server');
+const RtmpServer = require('server');
 const rtmpServer = new RtmpServer();
 
 rtmpServer.on('error', err => {
